@@ -50,10 +50,7 @@ To demonstrate the recommended tool, we will use K3d. Let's demonstrate the quic
 2. Create a new K3d cluster with the command `k3d cluster create my-cluster`.
 3. After successfully creating the cluster, deploy the "Hello World" application using the command `kubectl create deploy test --image 33base/devops_prometheus.git:server.1.0.1`.
 4. Verify the successful deployment of the application using the command `kubectl get pods`.
-<video width="800" height="600" autoplay loop>
-  <source src="https://asciinema.org/a/zv2spE5lyNofMsEQQT0MRA0Y2.svg" type="video/svg">
-  Your browser does not support the video tag.
-</video>
+[![asciicast](https://asciinema.org/a/zv2spE5lyNofMsEQQT0MRA0Y2.svg)](https://asciinema.org/a/zv2spE5lyNofMsEQQT0MRA0Y2)
 ### Minikube Demonstration
 
 1. Install Minikube using the instructions for your operating system.
