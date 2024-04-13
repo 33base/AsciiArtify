@@ -37,4 +37,4 @@ Follow these steps to deploy the MVP using ArgoCD to track changes from the GitH
 
 
 After completing these steps, the MVP should be successfully deployed using ArgoCD, demonstrating automatic synchronization of changes from the GitHub repository to the Kubernetes cluster.
-![img](img/img5.png)
+![img](img/img6.png)
