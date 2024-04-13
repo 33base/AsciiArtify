@@ -12,28 +12,29 @@ Follow these steps to deploy the MVP using ArgoCD to track changes from the GitH
    - Click on the 'New App' button.
    ![img](img/img2.png)
    - Fill in the following details:
-     - Application Name: `go-demo-app`
+     - Application Name: `project1`
      - Project: `default`
      - Repository URL: `https://github.com/den-vasyliev/go-demo-app`
      - Revision: `HEAD`
-     - Path: (leave blank)
-     - Sync Policy: `Automatic`
-
+     - Path: `helm`
+     - Sync Policy: `Manual`
+     - AUTO-CREATE NAMESPACE - tick
+    ![img](img/img3.png)
 4. **Deploy Application:**
    - Click on 'Create' to deploy the application.
-
+    ![img](img/img4.png)
 5. **Verify Deployment:**
    - Once the application is deployed, verify its status in the ArgoCD UI.
    - Check for any errors or warnings in the deployment process.
-
+    ![img](img/img7.png)
 6. **Sync Changes:**
    - Make changes to the GitHub repository [go-demo-app](https://github.com/den-vasyliev/go-demo-app).
    - Commit and push the changes.
+    ![img](img/img5.png)
 
 7. **Automatic Synchronization:**
    - ArgoCD should automatically detect the changes pushed to the repository and synchronize the application accordingly.
 
-8. **Demo Presentation:**
-
 
 After completing these steps, the MVP should be successfully deployed using ArgoCD, demonstrating automatic synchronization of changes from the GitHub repository to the Kubernetes cluster.
+![img](img/img5.png)
