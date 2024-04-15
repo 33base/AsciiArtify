@@ -17,7 +17,7 @@ Follow these steps to deploy the MVP using ArgoCD to track changes from the GitH
      - Repository URL: `https://github.com/den-vasyliev/go-demo-app`
      - Revision: `HEAD`
      - Path: `helm`
-     - Sync Policy: `Manual`
+     - Sync Policy: `Auto`
      - AUTO-CREATE NAMESPACE - tick
     ![img](img/img3.png)
 4. **Deploy Application:**
